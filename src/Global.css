@@ -1,0 +1,31 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    /* 1rem = 16px (User Agent) = 100% */
+    font-size: 62.5%;
+    /* 10px */
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 1.6rem;
+    background-color: #111;
+    color: #FFF;
+}
+
+body,
+input,
+textarea,
+button,
+select {
+    font-family: Helvetica Neue Helvetica, Lucida Grande, Arial, sans-serif;
+}
+
+input{
+    border: 0;
+    outline: 0;
+}

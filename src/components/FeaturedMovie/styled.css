@@ -1,0 +1,122 @@
+.featured {
+    height: 100vh;
+}
+
+.featured--vertical {
+    width: inherit;
+    height: inherit;
+    background: linear-gradient(to top, #111 10%, transparent 90%);
+}
+
+.featured--horizontal {
+    width: inherit;
+    height: inherit;
+    background: linear-gradient(to right, #111 30%, transparent 70%);
+
+    /**/
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 7rem 0 15rem 3rem;
+}
+
+.featured--name {
+    font-size: 6rem;
+    font-weight: bold;
+}
+
+.featured--info {
+    font-size: 1.8rem;
+    font-weight: bold;
+    margin-top: 1.5rem;
+
+    display: flex;
+    gap: 1.5rem;
+}
+
+.featured--points {
+    color: #46D369;
+}
+
+.featured--description {
+    margin-top: 1.5rem;
+    font-size: 2rem;
+    color: #999;
+    max-width: 40%;
+
+
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 5;
+    -webkit-box-orient: vertical;
+}
+
+.featured--buttons {
+    margin-top: 1.5rem;
+    display: flex;
+    gap: 1rem;
+}
+
+.featured--watchbutton,
+.featured--mylistbutton {
+    font-size: 2rem;
+    font-weight: bold;
+    padding: 1.2rem 2.5rem;
+    border-radius: .5rem;
+    text-decoration: none;
+    transition: .2s;
+}
+
+.featured--watchbutton {
+    background-color: #FFF;
+    color: #000;
+}
+
+.featured--mylistbutton {
+    background-color: #333;
+    color: #FFF;
+}
+
+.featured--watchbutton:hover,
+.featured--mylistbutton:hover {
+    opacity: .7;
+}
+
+.featured--genres {
+    margin-top: 1.5rem;
+    font-size: 1.8rem;
+    color: #999;
+}
+
+@media (max-width: 76rem) {
+    .featured--horizontal {
+        padding: 15rem 0 20rem 3rem;
+    }
+
+    .featured {
+        height: 80vh;
+    }
+
+    .featured--name {
+        font-size: 4rem;
+    }
+
+    .featured--info {
+        font-size: 1.6rem;
+        margin-bottom: 5rem;
+    }
+
+    .featured--description {
+        display: none;
+    }
+
+    .featured--watchbutton,
+    .featured--mylistbutton {
+        font-size: 1.6rem;
+    }
+
+    .featured--genres {
+        font-size: 1.4rem;
+    }
+}
