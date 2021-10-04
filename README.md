@@ -1,70 +1,77 @@
-# Getting Started with Create React App
+<div align="center" id="top"> 
+  <img src="https://raw.githubusercontent.com/tiago-mends/netflix-clone/master/public/screenshot.png" alt="WhatsApp Clone" />
+</div>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<h1 align="center">Netflix Clone, feito com React.JS</h1>
 
-## Available Scripts
+<p align="center">
+  <img alt="Github top language" src="https://img.shields.io/github/languages/top/tiago-mends/netflix-clone">
 
-In the project directory, you can run:
+  <img alt="Github language count" src="https://img.shields.io/github/languages/count/tiago-mends/netflix-clone">
 
-### `npm start`
+  <img alt="Repository size" src="https://img.shields.io/github/repo-size/tiago-mends/netflix-clone">
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+  <img alt="Github stars" src="https://img.shields.io/github/stars/tiago-mends/netflix-clone" />
+</p>
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+<hr>
 
-### `npm test`
+<p align="center">
+  <a href="#dart-sobre">Sobre</a> &#xa0; | &#xa0; 
+  <a href="#sparkles-recursos">Recursos</a> &#xa0; | &#xa0;
+  <a href="#rocket-tecnologias">Tecnologias</a> &#xa0; | &#xa0;
+  <a href="#white_check_mark-requerimentos">Requerimentos</a> &#xa0; | &#xa0;
+  <a href="#checkered_flag-começando">Começando</a> &#xa0; | &#xa0;
+  <a href="https://github.com/tiago-mends" target="_blank">Autor</a>
+</p>
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+<br>
 
-### `npm run build`
+## :dart: Sobre ##
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Clone do site referente ao Netflix, feito com o uso prioritário do React.JS e auxílio da API disponibilizada no site <a href="https://themoviedb.org/" target="_blank">The Movie DataBase</a>, procedimento realizado junto ao curso da B7Web, aula sendo ministrada pelo professor <a href="https://github.com/bonieky" target="_blank">Bonieky Lacerda</a>.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## :sparkles: Recursos ##
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+:heavy_check_mark: Integração com api;\
+:heavy_check_mark: Manipulação de dados;\
+:heavy_check_mark: Responsividade;\
+:heavy_check_mark: Carrossel de imagens;
 
-### `npm run eject`
+## :rocket: Tecnologias ##
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+As seguintes ferramentas foram usadas neste projeto:
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- [CSS](https://www.w3.org/Style/CSS/Overview.en.html)
+- [React.js](https://pt-br.reactjs.org/)
+- [API (The Movie DB)](https://themoviedb.org/)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+## :white_check_mark: Requerimentos ##
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+Antes de começar :checkered_flag:, você deve ter o [Git](https://git-scm.com) e [NodeJS](https://nodejs.org/en/) instalados.
 
-## Learn More
+## :checkered_flag: Começando ##
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+```bash
+# Clone este projeto
+$ git@github.com:tiago-mends/netflix-clone.git
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+# Acesse a pasta, por exemplo
+$ cd teste
 
-### Code Splitting
+# Instale a dependência
+$ npm
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+# Execute o projeto
+$ npm start
 
-### Analyzing the Bundle Size
+# O servidor irá inicializar no <http://localhost:3000>
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-### Making a Progressive Web App
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+Feito com :heart: por <a href="https://github.com/tiago-mends" target="_blank">Tiago Mendes</a>
 
-### Advanced Configuration
+&#xa0;
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+<a href="#top">Voltar para o topo</a>
